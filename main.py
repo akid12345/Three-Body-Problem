@@ -4,7 +4,7 @@ from matplotlib.animation import FuncAnimation
 
 # Constants
 G = 1.0         # Gravitational constant
-DT = 0.01       # Time step
+dT = 0.01       # Time step
 STEPS = 2000    # Number of simulation steps
 
 # Masses of the three bodies
@@ -52,7 +52,7 @@ def simulate():
     global positions, velocities
     for step in range(STEPS):
         trajectory[step] = positions
-        positions, velocities = rk4_step(positions, velocities, DT)
+        positions, velocities = rk4_step(positions, velocities, dT)
 
 
 def animate_simulation(save=False, filename="three_body.gif", tail_length=100):
