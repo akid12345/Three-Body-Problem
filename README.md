@@ -7,3 +7,5 @@ Unlike the two-body problem, which has a general analytical solution, the three-
 I was inspired to try and make a model after reading Liu Cixin's three-body problem series.
 
 # Example Output
+
+![Three-Body Gif](https://github.com/)
