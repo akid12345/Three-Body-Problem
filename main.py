@@ -12,9 +12,9 @@ SAVE_FILENAME = "three_body.gif"  # or "three_body.mp4"
 masses = [8.0, 8.0, 8.0]
 
 # Initial positions and velocities
-positions = np.array([[0, 0.2], [-2, 0], [2, 0]], dtype=float)
+positions = np.array([[0, 0.1], [-2, 0], [2, 0]], dtype=float)
 
-velocities = np.array([[0, -0.5], [0, 5], [0, -5]], dtype=float)
+velocities = np.array([[0, -0.45], [0, 5], [0, -5]], dtype=float)
 
 trajectory = np.zeros((STEPS, 3, 2))
 
@@ -47,7 +47,7 @@ def simulate():
 
 # === Animation ===
 def animate_simulation(save=False, filename="three_body.gif", tail_length=25):
-    colors = ['black', 'black', 'black']
+    colors = ['red', 'blue', 'black']
     fig, ax = plt.subplots(figsize=(6, 6))
     ax.set_xlim(-5, 5)
     ax.set_ylim(-5, 5)
