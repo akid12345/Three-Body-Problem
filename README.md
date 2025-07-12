@@ -8,4 +8,4 @@ I was inspired to try and make a model after reading Liu Cixin's three-body prob
 
 # Example Output
 
-![Three-Body Gif](https://github.com/akid12345/Three-Body-Problem/blob/main/Three-Body.gif)
+![Three-Body-Problem Gif](https://github.com/akid12345/Three-Body-Problem/blob/main/Three-Body.gif)
